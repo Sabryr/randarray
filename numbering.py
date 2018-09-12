@@ -34,11 +34,11 @@ def listcontain(listoflist, list):
 
 
 def getrand(a,b):
-	return random.randint(1,34)
+	return random.randint(1,10)
 
 
 def main():
-	for i in getrandarray(10, 100):
+	for i in getrandarray(10, 10):
 		print i
 
 if __name__ == '__main__':
